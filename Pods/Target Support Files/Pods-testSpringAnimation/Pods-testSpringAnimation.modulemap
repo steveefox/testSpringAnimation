@@ -1,0 +1,6 @@
+framework module Pods_testSpringAnimation {
+  umbrella header "Pods-testSpringAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
