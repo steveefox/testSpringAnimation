@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		8464B6E92498E12C00CA0787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8464B6E72498E12C00CA0787 /* Main.storyboard */; };
 		8464B6EB2498E12F00CA0787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8464B6EA2498E12F00CA0787 /* Assets.xcassets */; };
 		8464B6EE2498E12F00CA0787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8464B6EC2498E12F00CA0787 /* LaunchScreen.storyboard */; };
+		8464B6F8249A68CE00CA0787 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464B6F7249A68CE00CA0787 /* Animation.swift */; };
+		8464B6FB249A6BB500CA0787 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8464B6FA249A6BB500CA0787 /* Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		8464B6EA2498E12F00CA0787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8464B6ED2498E12F00CA0787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8464B6EF2498E12F00CA0787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8464B6F7249A68CE00CA0787 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		8464B6FA249A6BB500CA0787 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,6 @@
 				210D422D4C950C35DDCC92C4 /* Pods-testSpringAnimation.debug.xcconfig */,
 				5892D92A8BCBA3B2E19DCA9B /* Pods-testSpringAnimation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +76,8 @@
 		8464B6E02498E12C00CA0787 /* testSpringAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				8464B6F9249A6BA200CA0787 /* DataManager */,
+				8464B6F5249A686E00CA0787 /* Models */,
 				8464B6E12498E12C00CA0787 /* AppDelegate.swift */,
 				8464B6E32498E12C00CA0787 /* SceneDelegate.swift */,
 				8464B6E52498E12C00CA0787 /* ViewController.swift */,
@@ -82,6 +87,30 @@
 				8464B6EF2498E12F00CA0787 /* Info.plist */,
 			);
 			path = testSpringAnimation;
+			sourceTree = "<group>";
+		};
+		8464B6F5249A686E00CA0787 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8464B6F6249A689300CA0787 /* Animations */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8464B6F6249A689300CA0787 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8464B6F7249A68CE00CA0787 /* Animation.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		8464B6F9249A6BA200CA0787 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				8464B6FA249A6BB500CA0787 /* Animations.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 		D3F7E55D0C9C7C1F6D5A6985 /* Frameworks */ = {
@@ -208,7 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8464B6E62498E12C00CA0787 /* ViewController.swift in Sources */,
+				8464B6FB249A6BB500CA0787 /* Animations.swift in Sources */,
 				8464B6E22498E12C00CA0787 /* AppDelegate.swift in Sources */,
+				8464B6F8249A68CE00CA0787 /* Animation.swift in Sources */,
 				8464B6E42498E12C00CA0787 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
